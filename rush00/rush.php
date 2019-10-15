@@ -19,13 +19,11 @@
    $sql = "CREATE TABLE `mydatab`.`store table` ( 
       `ID` INT NOT NULL AUTO_INCREMENT , `Product Name` TEXT NOT NULL , 
       `Price` INT NOT NULL , `Amount` INT NOT NULL , PRIMARY KEY (`ID`))";
-
    if (mysqli_query($conn, $sql)) {
       echo "Table Users created successfully\n";
     } else {
        echo "Error creating table: " . mysqli_error($conn);
    }
-
       mysqli_close($conn);
    
 ?>
