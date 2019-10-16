@@ -3,25 +3,23 @@
 <head>
 </head>
 <body>
-
 <h2>Login Form</h2>
 <div class="container">
-  <form action="/action_page.php">
+  <form action="login.php" method="POST">
     <div class="row">
       <div class="vl">
       </div>
       <div class="col">
         <div class="hide-md-lg">
         </div>
-        <input type="text" name="username" placeholder="Username" required>
-        <input type="password" name="password" placeholder="Password" required>
+        <input type="text" name="username" placeholder="username" required>
+        <input type="password" name="password" placeholder="password" required>
         <input type="submit" value="Login">
       </div>
       
     </div>
   </form>
 </div>
-
 <div class="bottom-container">
   <div class="row">
     <div class="col">
@@ -32,6 +30,5 @@
     </div>
   </div>
 </div>
-
 </body>
 </html>

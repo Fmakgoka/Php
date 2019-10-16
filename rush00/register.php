@@ -4,7 +4,7 @@
 	</head>
 	<body>
 
-		<form action="/action_page.php">
+		<form action="signin.php" method = "POST">
   			<div class="container">
     			<h1>Register</h1>
 				<p>Create New Account</p>
